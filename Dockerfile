@@ -5,4 +5,4 @@ FROM alpine
 RUN apk add --update redis
 
 # Creating basic command to run at startup
-CMD ['redis-server']
+CMD ["redis-server"]
