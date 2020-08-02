@@ -32,13 +32,18 @@ Executing the ```shell command``` or ```Any shell command``` inside the running 
 docker exec -it <container> <command>
 ```
 eg.
+
 Echoing "Hi there"
 > docker exec -it ```<container>``` echo Hi There
 
 Staring a shell
+
 > docker exec -it ```<container>``` sh
+
 Opens shell like below:
+
 ```sh
 \# redis-cli
 ```
+
 Typed... ```redis-cli``` command.
