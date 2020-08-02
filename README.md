@@ -17,3 +17,28 @@ Running the image built in the step by extracting the code of our new image from
 ```sh 
 docker run <image-code>
 ```
+
+### 3. Listing containers:
+Running containers can be listed using below:
+> docker ps
+or,
+All containers can be listed using below:
+> docker ps -a
+Using this you can extract the name or corresponding code of the newly created container.
+
+### 4. Starting shell inside running container:
+Executing the ```shell command``` or ```Any shell command``` inside the running container.
+```sh
+docker exec -it <container> <command>
+```
+eg.
+Echoing "Hi there"
+> docker exec -it ```<container>``` echo Hi There
+
+Staring a shell
+> docker exec -it ```<container>``` sh
+Opens shell like below:
+```sh
+\# redis-cli
+```
+Typed... ```redis-cli``` command.
