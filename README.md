@@ -51,6 +51,6 @@ Typed... ```redis-cli``` command.
 ### 5. Tag an image:
 Tagging an image while building gives the image an easy to remember tag that can be used to create containers.
 
-> docker build ```<your-docker-id>```/```<new-image-tag>```:```<version>```
+> docker build ```<your-docker-id>```/```<new-image-tag>```:```<version>``` .
 
 By default, use ```latest``` as ```<version>```.
