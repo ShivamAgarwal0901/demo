@@ -13,5 +13,5 @@ Run inside the same directory as the Dockerfile.
 > docker build .
 
 ### 2. Generating the container out of the image:
-Running the image built in the step by extracting the code of our new image from the Successfully built <image-code> and running below command.
-> docker run <image-code>
+Running the image built in the step by extracting the code of our new image from the Successfully built &ltimage-code&gt and running below command.
+> docker run        <image-code>
